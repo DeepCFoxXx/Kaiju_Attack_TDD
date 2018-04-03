@@ -22,4 +22,9 @@ public class TestGodzilla {
         assertEquals(500, godzilla.getHealthValue());
     }
 
+    @Test
+    public void hasAttackValue() {
+        assertEquals(100, godzilla.getAttackValue());
+    }
+
 }

@@ -17,4 +17,8 @@ public class Kaiju {
     public int getHealthValue() {
         return healthValue;
     }
+
+    public int getAttackValue() {
+        return attackValue;
+    }
 }
