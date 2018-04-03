@@ -32,4 +32,9 @@ public class TestGodzilla {
         assertEquals("Roar!", godzilla.roar());
     }
 
+    @Test
+    public void canMove() {
+        assertEquals("Godzillas feet damages everything in the area", godzilla.move());
+    }
+
 }

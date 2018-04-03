@@ -7,4 +7,8 @@ public class Godzilla extends Kaiju {
     public String roar() {
         return "Roar!";
     }
+
+    public String move() {
+        return "Godzillas feet damages everything in the area";
+    }
 }
