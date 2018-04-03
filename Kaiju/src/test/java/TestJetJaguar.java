@@ -27,4 +27,9 @@ public class TestJetJaguar {
         assertEquals(70, jetJaguar.getAttackValue());
     }
 
+    @Test
+    public void canSpeak() {
+        assertEquals("To the moon", jetJaguar.speak());
+    }
+
 }

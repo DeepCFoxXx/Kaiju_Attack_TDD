@@ -4,4 +4,7 @@ public class JetJaguar extends Kaiju {
         super(name, healthValue, attackValue);
     }
 
+    public String speak() {
+        return "To the moon";
+    }
 }
