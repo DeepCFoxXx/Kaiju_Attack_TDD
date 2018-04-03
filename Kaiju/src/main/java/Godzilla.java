@@ -4,4 +4,7 @@ public class Godzilla extends Kaiju {
         super(name, healthValue, attackValue);
     }
 
+    public String roar() {
+        return "Roar!";
+    }
 }

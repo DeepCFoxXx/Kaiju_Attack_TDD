@@ -27,4 +27,9 @@ public class TestGodzilla {
         assertEquals(100, godzilla.getAttackValue());
     }
 
+    @Test
+    public void canRoar() {
+        assertEquals("Roar!", godzilla.roar());
+    }
+
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41a654f-03ca-47db-9597-196c0b199790" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kaiju/src/test/java/TestGodzilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kaiju/src/test/java/TestGodzilla.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,13 +37,15 @@
       <file leaf-file-name="Kaiju.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="304">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="e#312#313#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,11 +54,13 @@
       <file leaf-file-name="Godzilla.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="66" lean-forward="true" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+            <state relative-caret-position="105">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
                 <element signature="e#105#106#0" expanded="true" />
                 <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,16 +69,19 @@
       <file leaf-file-name="TestGodzilla.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Kaiju/src/test/java/TestGodzilla.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="-131">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#291#292#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -535,9 +542,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Kaiju/src/main/java/Godzillia.java" />
-        <option value="$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java" />
-        <option value="$PROJECT_DIR$/Kaiju/src/test/java/TestGodzilla.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java" />
+        <option value="$PROJECT_DIR$/Kaiju/src/test/java/TestGodzilla.java" />
+        <option value="$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java" />
       </list>
     </option>
   </component>
@@ -650,6 +657,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestGodzilla.canRoar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kaiju_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestGodzilla" />
+      <option name="METHOD_NAME" value="canRoar" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TestGodzilla.hasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kaiju_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -739,10 +763,12 @@
       <item itemvalue="JUnit.TestGodzilla.hasName" />
       <item itemvalue="JUnit.TestGodzilla.hasHealthValue" />
       <item itemvalue="JUnit.All in Kaiju_test" />
+      <item itemvalue="JUnit.TestGodzilla.canRoar" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Kaiju_test" />
+        <item itemvalue="JUnit.TestGodzilla.canRoar" />
         <item itemvalue="JUnit.TestGodzilla.hasHealthValue" />
         <item itemvalue="JUnit.TestGodzilla.hasName" />
       </list>
@@ -765,6 +791,12 @@
     <history-entry file="TestGodzilla_hasName - 2018.04.03 at 15h 58m 25s.xml">
       <configuration name="TestGodzilla.hasName" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestGodzilla_hasHealthValue - 2018.04.03 at 16h 31m 47s.xml">
+      <configuration name="TestGodzilla.hasHealthValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Kaiju_test - 2018.04.03 at 16h 33m 47s.xml">
+      <configuration name="All in Kaiju_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -772,17 +804,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -797,11 +830,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.27310345" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/IDamage.java">
@@ -820,6 +857,8 @@
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -831,6 +870,8 @@
           <folding>
             <element signature="e#105#106#0" expanded="true" />
             <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,13 +881,16 @@
         <state relative-caret-position="150">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#291#292#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,42 +902,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="66" lean-forward="true" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="304">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="e#312#313#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#374#375#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Kaiju/src/test/java/TestGodzilla.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="-131">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#291#292#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
           </folding>
         </state>
       </provider>
