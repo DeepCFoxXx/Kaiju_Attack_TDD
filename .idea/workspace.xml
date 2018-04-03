@@ -630,7 +630,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestJetJaguar.hasName">
+  <component name="RunManager" selected="JUnit.TestJetJaguar.hasHealthValue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -688,13 +688,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestGodzilla.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestJetJaguar.hasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kaiju_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGodzilla" />
-      <option name="METHOD_NAME" value="hasName" />
+      <option name="MAIN_CLASS_NAME" value="TestJetJaguar" />
+      <option name="METHOD_NAME" value="hasHealthValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -774,19 +774,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestGodzilla.hasName" />
       <item itemvalue="JUnit.TestGodzilla.hasHealthValue" />
       <item itemvalue="JUnit.All in Kaiju_test" />
       <item itemvalue="JUnit.TestGodzilla.canRoar" />
       <item itemvalue="JUnit.TestJetJaguar.hasName" />
+      <item itemvalue="JUnit.TestJetJaguar.hasHealthValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestJetJaguar.hasHealthValue" />
         <item itemvalue="JUnit.TestJetJaguar.hasName" />
         <item itemvalue="JUnit.All in Kaiju_test" />
         <item itemvalue="JUnit.TestGodzilla.canRoar" />
         <item itemvalue="JUnit.TestGodzilla.hasHealthValue" />
-        <item itemvalue="JUnit.TestGodzilla.hasName" />
       </list>
     </recent_temporary>
   </component>

@@ -17,4 +17,9 @@ public class TestJetJaguar {
         assertEquals("Jet Jaguar", jetJaguar.getName());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(300, jetJaguar.getHealthValue());
+    }
+
 }
