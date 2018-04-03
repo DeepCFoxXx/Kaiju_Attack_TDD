@@ -22,4 +22,9 @@ public class TestJetJaguar {
         assertEquals(300, jetJaguar.getHealthValue());
     }
 
+    @Test
+    public void hasAttackValue() {
+        assertEquals(70, jetJaguar.getAttackValue());
+    }
+
 }
