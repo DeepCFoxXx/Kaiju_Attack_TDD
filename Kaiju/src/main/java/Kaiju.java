@@ -14,4 +14,7 @@ public class Kaiju {
         return name;
     }
 
+    public int getHealthValue() {
+        return healthValue;
+    }
 }

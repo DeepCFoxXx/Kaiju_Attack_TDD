@@ -17,4 +17,9 @@ public class TestGodzilla {
         assertEquals("Mecha Godzilla", godzilla.getName());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(500, godzilla.getHealthValue());
+    }
+
 }
