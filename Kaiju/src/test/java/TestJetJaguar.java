@@ -32,4 +32,9 @@ public class TestJetJaguar {
         assertEquals("To the moon", jetJaguar.speak());
     }
 
+    @Test
+    public void canFly() {
+        assertEquals("Jet Jaguar takes to the sky", jetJaguar.fly());
+    }
+
 }

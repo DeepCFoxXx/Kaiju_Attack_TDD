@@ -7,4 +7,8 @@ public class JetJaguar extends Kaiju {
     public String speak() {
         return "To the moon";
     }
+
+    public String fly() {
+        return "Jet Jaguar takes to the sky";
+    }
 }
