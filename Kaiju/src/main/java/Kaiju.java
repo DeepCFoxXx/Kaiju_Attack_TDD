@@ -29,4 +29,8 @@ public class Kaiju {
     public void attackVehicle(Vehicle vehicle) {
         vehicle.takeDamage(attackValue);
     }
+
+    public void attackKaiju(Godzilla godzilla) {
+        godzilla.takeDamage(attackValue);
+    }
 }

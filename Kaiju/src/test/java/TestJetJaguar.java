@@ -6,10 +6,12 @@ import static org.junit.Assert.assertEquals;
 public class TestJetJaguar {
 
     JetJaguar jetJaguar;
+    Godzilla godzilla;
 
     @Before
     public void before() {
         jetJaguar = new JetJaguar("Jet Jaguar", 300, 70);
+        godzilla = new Godzilla("Godzilla Prime", 1000, 150);
     }
 
     @Test
@@ -35,6 +37,12 @@ public class TestJetJaguar {
     @Test
     public void canFly() {
         assertEquals("Jet Jaguar takes to the sky", jetJaguar.fly());
+    }
+
+    @Test
+    public void canAttackKaiju() {
+        jetJaguar.attackKaiju(godzilla);
+        assertEquals(930, godzilla.getHealthValue());
     }
 
 }
