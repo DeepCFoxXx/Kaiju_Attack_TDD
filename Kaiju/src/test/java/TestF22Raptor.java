@@ -29,4 +29,10 @@ public class TestF22Raptor {
         assertEquals(10, f22Raptor.getAttackValue());
     }
 
+    @Test
+    public void canUseManchineGun() {
+        f22Raptor.attackKaijuWithMachineGun(godzilla);
+        assertEquals(390, godzilla.getHealthValue());
+    }
+
 }
