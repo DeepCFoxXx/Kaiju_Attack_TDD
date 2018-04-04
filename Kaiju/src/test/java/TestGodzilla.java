@@ -7,12 +7,13 @@ public class TestGodzilla {
 
     Godzilla godzilla;
     Tank tank;
+    JetJaguar jetJaguar;
 
     @Before
     public void before() {
         godzilla = new Godzilla("Mecha Godzilla", 500, 100);
         tank = new Tank("Tank", 110, 15);
-
+        jetJaguar = new JetJaguar("Jet Jaguar", 300, 70);
     }
 
     @Test
@@ -44,6 +45,12 @@ public class TestGodzilla {
     public void canAttackVehicle(){
         godzilla.attackVehicle(tank);
         assertEquals(10, tank.getHealth());
+    }
+
+    @Test
+    public void canAttackKaiju() {
+        godzilla.attackKaiju(jetJaguar);
+        assertEquals(200, jetJaguar.getHealthValue());
     }
 
 }

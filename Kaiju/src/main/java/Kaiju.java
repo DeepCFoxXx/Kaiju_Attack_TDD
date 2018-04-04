@@ -30,7 +30,7 @@ public class Kaiju {
         vehicle.takeDamage(attackValue);
     }
 
-    public void attackKaiju(Godzilla godzilla) {
-        godzilla.takeDamage(attackValue);
+    public void attackKaiju(Kaiju kaiju) {
+        kaiju.takeDamage(attackValue);
     }
 }
