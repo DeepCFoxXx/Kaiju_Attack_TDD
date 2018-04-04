@@ -19,5 +19,9 @@ public class TestBuilding {
         assertEquals(1000, skyScraper.getIntegrity());
     }
 
-
+    @Test
+    public void canSustainDamage(){
+        godzilla.damageBuilding(skyScraper);
+        assertEquals(800, skyScraper.getIntegrity());
+    }
 }

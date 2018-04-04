@@ -33,4 +33,9 @@ public class Kaiju {
     public void attackKaiju(Kaiju kaiju) {
         kaiju.takeDamage(attackValue);
     }
+
+    public void damageBuilding(Building building){
+        building.takeDamage(attackValue);
+    }
+
 }

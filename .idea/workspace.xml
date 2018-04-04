@@ -642,6 +642,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestBuilding.canSustainDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kaiju_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBuilding" />
+      <option name="METHOD_NAME" value="canSustainDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TestF22Raptor.canUseMainGun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kaiju_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -683,23 +700,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestF22Raptor" />
       <option name="METHOD_NAME" value="hasAttackValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestF22Raptor.hasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kaiju_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestF22Raptor" />
-      <option name="METHOD_NAME" value="hasHealthValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -763,18 +763,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Kaiju_test" />
-      <item itemvalue="JUnit.TestF22Raptor.hasHealthValue" />
       <item itemvalue="JUnit.TestF22Raptor.hasAttackValue" />
       <item itemvalue="JUnit.TestF22Raptor.canUseManchineGun" />
       <item itemvalue="JUnit.TestF22Raptor.canUseMainGun" />
+      <item itemvalue="JUnit.TestBuilding.canSustainDamage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Kaiju_test" />
+        <item itemvalue="JUnit.TestBuilding.canSustainDamage" />
         <item itemvalue="JUnit.TestF22Raptor.canUseMainGun" />
         <item itemvalue="JUnit.TestF22Raptor.canUseManchineGun" />
         <item itemvalue="JUnit.TestF22Raptor.hasAttackValue" />
-        <item itemvalue="JUnit.TestF22Raptor.hasHealthValue" />
       </list>
     </recent_temporary>
   </component>
