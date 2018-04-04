@@ -25,4 +25,8 @@ public class Kaiju {
     public void takeDamage(int attack){
         this.healthValue -= attack;
     }
+
+    public void attackVehicle(Vehicle vehicle) {
+        vehicle.takeDamage(attackValue);
+    }
 }

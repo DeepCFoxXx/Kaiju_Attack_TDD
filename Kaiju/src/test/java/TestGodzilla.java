@@ -6,10 +6,13 @@ import static org.junit.Assert.assertEquals;
 public class TestGodzilla {
 
     Godzilla godzilla;
+    Tank tank;
 
     @Before
     public void before() {
         godzilla = new Godzilla("Mecha Godzilla", 500, 100);
+        tank = new Tank("Tank", 110, 15);
+
     }
 
     @Test
@@ -35,6 +38,12 @@ public class TestGodzilla {
     @Test
     public void canMove() {
         assertEquals("Godzillas feet damages everything in the area", godzilla.move());
+    }
+
+    @Test
+    public void canAttackVehicle(){
+        godzilla.attackVehicle(tank);
+        assertEquals(10, tank.getHealth());
     }
 
 }
