@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41a654f-03ca-47db-9597-196c0b199790" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Kaiju/src/main/java/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kaiju/src/main/java/IAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kaiju/src/test/java/TestBuilding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kaiju/out/test/classes/TestF22Raptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Kaiju/out/test/classes/TestF22Raptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kaiju/src/test/java/TestF22Raptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kaiju/src/test/java/TestF22Raptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kaiju/src/main/java/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kaiju/src/main/java/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kaiju/src/main/java/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kaiju/src/main/java/Vehicle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,34 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Building.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Building.java">
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBuilding.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Kaiju/src/test/java/TestBuilding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -522,14 +508,14 @@
         <option value="$PROJECT_DIR$/Kaiju/src/main/java/JetJaguar.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/main/java/Tank.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/test/java/TestTank.java" />
-        <option value="$PROJECT_DIR$/Kaiju/src/main/java/Vehicle.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/test/java/TestJetJaguar.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/test/java/TestGodzilla.java" />
-        <option value="$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/main/java/F22Raptor.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/test/java/TestF22Raptor.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/test/java/TestBuilding.java" />
+        <option value="$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java" />
         <option value="$PROJECT_DIR$/Kaiju/src/main/java/Building.java" />
+        <option value="$PROJECT_DIR$/Kaiju/src/main/java/Vehicle.java" />
       </list>
     </option>
   </component>
@@ -792,12 +778,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Kaiju_test - 2018.04.04 at 11h 58m 40s.xml">
-      <configuration name="All in Kaiju_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestF22Raptor_hasName - 2018.04.04 at 12h 04m 24s.xml">
-      <configuration name="TestF22Raptor.hasName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestF22Raptor_hasHealthValue - 2018.04.04 at 12h 05m 24s.xml">
       <configuration name="TestF22Raptor.hasHealthValue" configurationId="JUnit" />
     </history-entry>
@@ -822,10 +802,15 @@
     <history-entry file="All_in_Kaiju_test - 2018.04.04 at 12h 10m 38s.xml">
       <configuration name="All in Kaiju_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBuilding_canSustainDamage - 2018.04.04 at 12h 35m 11s.xml">
+      <configuration name="TestBuilding.canSustainDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Kaiju_test - 2018.04.04 at 12h 35m 16s.xml">
+      <configuration name="All in Kaiju_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -884,12 +869,14 @@
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
             <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
             <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
             <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -940,63 +927,6 @@
             <element signature="e#225#226#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1098,6 +1028,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Kaiju/src/test/java/TestBuilding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Kaiju.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Godzilla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/F22Raptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1109,31 +1089,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kaiju/src/test/java/TestBuilding.java">
+    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Building.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="180">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Building.java">
+    <entry file="file://$PROJECT_DIR$/Kaiju/src/main/java/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
           </folding>
         </state>
       </provider>

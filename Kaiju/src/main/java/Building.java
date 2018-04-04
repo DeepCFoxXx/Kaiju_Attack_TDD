@@ -14,6 +14,10 @@ public class Building implements IDamage {
         return structuralIntegrity;
     }
 
+    public int getStructuralIntegrity() {
+        return structuralIntegrity;
+    }
+
     public void setStructuralIntegrity(int structuralIntegrity) {
         this.structuralIntegrity = structuralIntegrity;
     }
