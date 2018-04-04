@@ -619,7 +619,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTank.hasHealthValue">
+  <component name="RunManager" selected="JUnit.TestTank.hasAttackValue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -660,13 +660,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestJetJaguar.canSpeak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTank.hasAttackValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kaiju_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestJetJaguar" />
-      <option name="METHOD_NAME" value="canSpeak" />
+      <option name="MAIN_CLASS_NAME" value="TestTank" />
+      <option name="METHOD_NAME" value="hasAttackValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -763,19 +763,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestJetJaguar.canSpeak" />
       <item itemvalue="JUnit.TestJetJaguar.canFly" />
       <item itemvalue="JUnit.All in Kaiju_test" />
       <item itemvalue="JUnit.TestTank.hasName" />
       <item itemvalue="JUnit.TestTank.hasHealthValue" />
+      <item itemvalue="JUnit.TestTank.hasAttackValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTank.hasAttackValue" />
         <item itemvalue="JUnit.TestTank.hasHealthValue" />
         <item itemvalue="JUnit.All in Kaiju_test" />
         <item itemvalue="JUnit.TestTank.hasName" />
         <item itemvalue="JUnit.TestJetJaguar.canFly" />
-        <item itemvalue="JUnit.TestJetJaguar.canSpeak" />
       </list>
     </recent_temporary>
   </component>

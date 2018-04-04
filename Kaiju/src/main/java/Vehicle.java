@@ -17,4 +17,8 @@ public class Vehicle {
     public int getHealth() {
         return healthValue;
     }
+
+    public int getAttackValue() {
+        return attackValue;
+    }
 }

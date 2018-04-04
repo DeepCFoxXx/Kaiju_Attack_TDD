@@ -24,4 +24,9 @@ public class TestTank {
         assertEquals(100, tank.getHealth());
     }
 
+    @Test
+    public void hasAttackValue() {
+        assertEquals(15, tank.getAttackValue());
+    }
+
 }
