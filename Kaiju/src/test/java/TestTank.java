@@ -19,4 +19,9 @@ public class TestTank {
         assertEquals("Tank", tank.getType());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(100, tank.getHealth());
+    }
+
 }
