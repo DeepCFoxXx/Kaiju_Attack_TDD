@@ -24,4 +24,9 @@ public class TestF22Raptor {
         assertEquals(150, f22Raptor.getHealth());
     }
 
+    @Test
+    public void hasAttackValue() {
+        assertEquals(10, f22Raptor.getAttackValue());
+    }
+
 }
