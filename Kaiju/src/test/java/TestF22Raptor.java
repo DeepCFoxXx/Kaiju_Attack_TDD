@@ -19,4 +19,9 @@ public class TestF22Raptor {
         assertEquals("F22", f22Raptor.getType());
     }
 
+    @Test
+    public void hasHealthValue() {
+        assertEquals(150, f22Raptor.getHealth());
+    }
+
 }

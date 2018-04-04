@@ -647,7 +647,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestF22Raptor.hasName">
+  <component name="RunManager" selected="JUnit.TestF22Raptor.hasHealthValue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -662,6 +662,23 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestF22Raptor.hasHealthValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kaiju_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestF22Raptor" />
+      <option name="METHOD_NAME" value="hasHealthValue" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -695,23 +712,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestGodzilla" />
       <option name="METHOD_NAME" value="canAttackKaiju" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestGodzilla.canAttackVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kaiju_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGodzilla" />
-      <option name="METHOD_NAME" value="canAttackVehicle" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -791,19 +791,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestGodzilla.canAttackVehicle" />
       <item itemvalue="JUnit.TestJetJaguar.canAttackKaiju" />
       <item itemvalue="JUnit.TestGodzilla.canAttackKaiju" />
       <item itemvalue="JUnit.All in Kaiju_test" />
       <item itemvalue="JUnit.TestF22Raptor.hasName" />
+      <item itemvalue="JUnit.TestF22Raptor.hasHealthValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestF22Raptor.hasHealthValue" />
         <item itemvalue="JUnit.TestF22Raptor.hasName" />
         <item itemvalue="JUnit.All in Kaiju_test" />
         <item itemvalue="JUnit.TestGodzilla.canAttackKaiju" />
         <item itemvalue="JUnit.TestJetJaguar.canAttackKaiju" />
-        <item itemvalue="JUnit.TestGodzilla.canAttackVehicle" />
       </list>
     </recent_temporary>
   </component>
