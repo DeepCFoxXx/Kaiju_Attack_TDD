@@ -21,4 +21,8 @@ public class Kaiju {
     public int getAttackValue() {
         return attackValue;
     }
+
+    public void takeDamage(int attack){
+        this.healthValue -= attack;
+    }
 }

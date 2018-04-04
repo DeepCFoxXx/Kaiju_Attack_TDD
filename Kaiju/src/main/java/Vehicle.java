@@ -21,4 +21,8 @@ public class Vehicle {
     public int getAttackValue() {
         return attackValue;
     }
+
+    public void attackKaijuWithMachineGun(Kaiju kaiju) {
+        kaiju.takeDamage(this.attackValue);
+    }
 }

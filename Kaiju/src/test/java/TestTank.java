@@ -29,4 +29,10 @@ public class TestTank {
         assertEquals(15, tank.getAttackValue());
     }
 
+    @Test
+    public void canUseMachineGun() {
+        tank.attackKaijuWithMachineGun(godzilla);
+        assertEquals(285, godzilla.getHealthValue());
+    }
+
 }
