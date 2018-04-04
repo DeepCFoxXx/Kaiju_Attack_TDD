@@ -647,7 +647,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTank.canUseMachineGun">
+  <component name="RunManager" selected="JUnit.TestTank.canUseMainGun">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -688,6 +688,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestTank.canUseMainGun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kaiju_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTank" />
+      <option name="METHOD_NAME" value="canUseMainGun" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TestTank.hasAttackValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kaiju_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -712,23 +729,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestTank" />
       <option name="METHOD_NAME" value="hasHealthValue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestTank.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kaiju_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTank" />
-      <option name="METHOD_NAME" value="hasName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -792,18 +792,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in Kaiju_test" />
-      <item itemvalue="JUnit.TestTank.hasName" />
       <item itemvalue="JUnit.TestTank.hasHealthValue" />
       <item itemvalue="JUnit.TestTank.hasAttackValue" />
       <item itemvalue="JUnit.TestTank.canUseMachineGun" />
+      <item itemvalue="JUnit.TestTank.canUseMainGun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTank.canUseMainGun" />
         <item itemvalue="JUnit.TestTank.canUseMachineGun" />
         <item itemvalue="JUnit.TestTank.hasAttackValue" />
         <item itemvalue="JUnit.TestTank.hasHealthValue" />
         <item itemvalue="JUnit.All in Kaiju_test" />
-        <item itemvalue="JUnit.TestTank.hasName" />
       </list>
     </recent_temporary>
   </component>
